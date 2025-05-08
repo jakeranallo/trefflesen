@@ -3,15 +3,12 @@
   "name": "Trefflesen",
   "description": "A focused reading list application for tracking articles and resources",
   "version": "1.0.0",
-  "author": {
-    "name": "Treffwerk",
-    "email": "hello@treffwerk.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jakeranallo/trefflesen"
-  },
+  "icon": "book",
   "entry": "app/page.tsx",
-  "permissions": ["storage"],
+  "author": "Treffwerk",
+  "homepage": "https://github.com/jakeranallo/trefflesen",
+  "languages": ["en"],
+  "tags": ["reading", "productivity", "articles", "bookmarks"],
+  "category": "productivity",
   "license": "MIT"
 }
