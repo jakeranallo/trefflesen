@@ -1,0 +1,17 @@
+{
+  "id": "trefflesen",
+  "name": "Trefflesen",
+  "description": "A focused reading list application for tracking articles and resources",
+  "version": "1.0.0",
+  "author": {
+    "name": "Trefflesen Team",
+    "email": "info@trefflesen.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trefflesen/trefflesen-app"
+  },
+  "entry": "app/page.tsx",
+  "permissions": ["storage"],
+  "license": "MIT"
+}
