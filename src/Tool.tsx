@@ -1,11 +1,8 @@
 import * as React from 'react'
 import { readingList } from './data'
+import type { ToolComponentProps } from '@treffwerk/types'
 
-interface ToolProps {
-  // Add any props that the Treffwerk shell might pass to the tool
-}
-
-const Tool: React.FC<ToolProps> = () => {
+const Tool: React.FC<ToolComponentProps> = ({ manifest, userId }) => {
   return (
     <div className="trefflesen-tool">
       <div className="reading-list">
